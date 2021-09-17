@@ -1,0 +1,187 @@
+.page-sidebar-layout .page-sidebar{
+    background-position: top center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #fff;
+    /* box-shadow: 0px 5px 20px 5px rgb(0 0 0 / 3%); */
+    position: fixed;
+    height: 100%;
+    z-index: 0;
+    width: 300px;
+    left: 0;
+    top: 0;
+    transition: 0.3s all;
+    padding: 3rem;
+}
+.page-sidebar-layout .page-sidebar .sidebar-menu {
+    padding-left: 0;
+    list-style: none;
+    overflow-y: auto;
+    position: relative;
+    white-space: nowrap;
+    margin-top: 3rem;
+}
+.page-sidebar-layout .page-sidebar .sidebar-menu li{
+    background: #fff;
+    padding: 15px 25px;
+    border-radius: 15px;
+    border-left: 5px solid #fff;
+    margin-bottom: 0.5rem;
+}
+.page-sidebar-layout .page-sidebar .sidebar-menu li.active{
+    background: #2b468b;
+    padding: 15px 25px;
+    border-radius: 15px;
+    border-left: 5px solid #aab5d1;
+}
+.page-sidebar-layout .page-sidebar .sidebar-menu li.active a span{
+    color: #fff;
+    font-weight: 500;
+}
+.page-sidebar-layout .page-sidebar .sidebar-menu li.active a img{
+    filter: invert(2);
+}
+.page-sidebar-layout .page-content {
+    padding-left: 300px;
+    transition: 0.3s padding-left;
+    width: 100%;
+}
+.page-sidebar-layout .page-content .page-body {
+    padding: 95px 30px;
+}
+.sidebar-calendar{
+    position: fixed;
+    top: 40px;
+    width: 440px;
+    max-height: calc(100% - 140px);
+    overflow-y: auto;
+}
+.image-poster{
+    width: 380px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+.blue-color{
+    background: #FE912A !important;
+    position: relative;
+    overflow: hidden;
+    height: 180px;
+}
+.color-chart1{
+    color: #fc4541;
+}
+.color-chart2{
+    color: #ff7b43;
+}
+.box-scroll-list-data{
+    height: 170px;
+    max-height: calc(100% - 40px);
+    overflow-y: auto;
+}
+.footer-menu li{
+    display: inline;
+}
+.line-side{
+    width: 100%;
+    height: 2px;
+    border-radius: 20px;
+    background: #f4f6f8;
+}
+.box-header{
+    background: #f7f7f7;
+    border-radius: 10px;
+    padding: 10px;
+}
+.btn-outline-orange{
+    background: #fff !important;
+    border: 2px solid #FE912A !important;
+    color: #FE912A !important;
+}
+.btn-orange{
+    border-color: solid 2px transparent !important;
+    background: #FE912A !important;
+    color: #fff !important;
+    border: unset !important;
+    box-shadow: 0px 2.5px 8px 0px #ffc1075e !important;
+}
+.btn-blue-strong{
+    border-color: solid 2px transparent !important;
+    background: #35488C !important;
+    color: #fff !important;
+    border: unset !important;
+    box-shadow: 0px 2.5px 8px 0px #35488c73 !important;
+}
+.progress-circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    padding: 20px;
+    color: #000;
+    background: #fff;
+    font-size: 28px;
+    font-weight: 700;
+}
+.progress-circle.red{
+    border: 8px solid #ff4343;
+}
+.progress-circle.orange{
+    border: 8px solid #ff7b44;
+}
+.progress-circle.dark{
+    border: 8px solid #2b468b;
+}
+.color-red{
+    color: #ff4343;
+}
+.color-orange{
+    color: #ff7b44;
+}
+.color-dark{
+    color: #2b468b;
+}
+.size-20{
+    font-size: 20px;
+}
+.size-25{
+    font-size: 25px;
+}
+.size-28{
+    font-size: 28px;
+}
+.form-control {
+    font-size: 14px !important;
+    border: solid 2px #F4F6F8 !important;
+    background: #F4F6F8 !important;
+    border-radius: 5px !important;
+    display: block !important;
+    width: 100% !important;
+    padding: 0.375rem 0.75rem !important;
+    font-weight: 400 !important;
+    line-height: 1.5 !important;
+    color: #495057 !important;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out !important;
+  }
+  .form-control:disabled, .form-control[readonly]{
+      background: #DFE3E8 !important;
+      border: solid 2px #DFE3E8 !important;
+      color: #637381 !important;
+  }
+  .form-control:focus {
+    border: solid 2px #A0D4FF !important;
+  }
+  
+  .form-control:focus {
+    color: #495057 !important;
+    background-color: #fff !important;
+    box-shadow: unset !important;
+  }
+  .field-icon {
+    float: right;
+    margin-left: 13px !important;
+    margin-top: -25px;
+    position: relative;
+    padding-right: 25px;
+    z-index: 2;
+  }
